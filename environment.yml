@@ -1,0 +1,20 @@
+name: cm_env
+channels:
+  - defaults
+  - rmg
+  - rdkit
+  - cantera
+  - pytorch
+  - conda-forge
+dependencies:
+  - bokeh
+  - cantera >=2.3.0
+  - coverage
+  - jupyter
+  - matplotlib >=1.5
+  - networkx
+  - numpy >=1.10.0
+  - pandas
+  - python >=3.7
+  - rmg >=3.0
+  - scipy
